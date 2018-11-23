@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="tw.com.lccnet.app.addemo.MainActivity">
+
+    <ViewFlipper
+        android:id="@+id/viewflipper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:inAnimation="@anim/right_in"
+        android:outAnimation="@anim/right_out"
+        android:flipInterval="3000"
+        >
+        <include layout="@layout/page_a"/>
+        <include layout="@layout/page_b"/>
+        <include layout="@layout/page_c"/>
+        <include layout="@layout/page_d"/>
+    </ViewFlipper>
+</LinearLayout>

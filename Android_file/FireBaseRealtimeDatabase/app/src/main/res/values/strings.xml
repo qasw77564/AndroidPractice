@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">FireBaseRealtimeDatabase</string>
+
+    <array name="type_str">
+
+        <item>大</item>
+        <item>中</item>
+        <item>小</item>
+        <item>一般</item>
+
+    </array>
+</resources>

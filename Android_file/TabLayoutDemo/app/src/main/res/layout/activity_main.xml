@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="tw.com.lccnet.app.tablayoutdemo.MainActivity">
+
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:tabGravity="fill"
+        app:tabMode="fixed">
+
+
+    </android.support.design.widget.TabLayout>
+
+    <android.support.v4.view.ViewPager
+
+        android:id="@+id/viewpager"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tabLayout" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal">
+
+
+        <RadioButton
+            android:id="@+id/rad_home"
+            android:drawableTop="@drawable/ic_home"
+            android:text="首頁"
+            style="@style/button_style"
+             />
+
+        <RadioButton
+            android:id="@+id/rad_news"
+            android:drawableTop="@drawable/ic_news"
+            android:text="新增"
+            style="@style/button_style"
+            />
+
+        <RadioButton
+            android:id="@+id/rad_phone"
+            android:drawableTop="@drawable/ic_phone"
+            android:text="電話"
+            style="@style/button_style"
+            />
+
+        <RadioButton
+            android:id="@+id/rad_email"
+            android:drawableTop="@drawable/ic_email"
+            android:text="郵件"
+            style="@style/button_style"
+            />
+
+        <RadioButton
+            android:id="@+id/rad_set"
+            android:drawableTop="@drawable/ic_set"
+            android:text="設定"
+            style="@style/button_style"
+            />
+    </RadioGroup>
+
+</LinearLayout>

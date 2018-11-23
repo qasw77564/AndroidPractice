@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/VP"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        ></android.support.v4.view.ViewPager>
+
+    <RadioGroup
+        android:id="@+id/RG_group"
+        android:background="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="5">
+        <RadioButton
+            android:id="@+id/rb_home"
+            android:drawableTop="@drawable/rb_home_images"
+            android:text="主頁"
+            style="@style/button_tag_style"
+            />
+        <RadioButton
+            style="@style/button_tag_style"
+            android:drawableTop="@drawable/rb_home_images"
+            android:id="@+id/rb_news"
+            android:text="新聞"
+
+            />
+        <RadioButton
+            style="@style/button_tag_style"
+            android:drawableTop="@drawable/rb_home_images"
+            android:id="@+id/rb_service"
+            android:text="服務"
+
+            />
+        <RadioButton
+            style="@style/button_tag_style"
+            android:drawableTop="@drawable/rb_home_images"
+            android:id="@+id/rb_setting"
+            android:text="設定"
+
+            />
+        <RadioButton
+            style="@style/button_tag_style"
+            android:drawableTop="@drawable/rb_home_images"
+            android:id="@+id/rb_about"
+            android:text="關於"
+
+            />
+
+
+    </RadioGroup>
+</LinearLayout>

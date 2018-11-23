@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="tw.com.lccnet.app.progressbar.MainActivity">
+    <!--小型(圓形) style="?android:attr/progressBarStyleSmall" -->
+    <ProgressBar
+        android:id="@+id/progressBar3"
+        style="?android:attr/progressBarStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <!--中型(圓形) style="?android:attr/progressBarStyle" -->
+    <ProgressBar
+        android:id="@+id/progressBar4"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <!--大型(圓形) style="?android:attr/progressBarStyleLarge" -->
+    <ProgressBar
+        android:id="@+id/progressBar5"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <!--一般(長形) style="?android:attr/progressBarStyleHorizontal" -->
+    <ProgressBar
+        android:id="@+id/progressBar6"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:progress="5"
+        android:indeterminate="true"/>
+    <!--一般(長形) style="?android:attr/progressBarStyleHorizontal" -->
+    <ProgressBar
+        android:id="@+id/progressBar7"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:progress="5"
+       />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/amin_progress" />
+
+    <tw.com.lccnet.app.progressbar.customer.CustomerProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+
+        />
+</LinearLayout>

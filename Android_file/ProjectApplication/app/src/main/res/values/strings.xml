@@ -1,0 +1,30 @@
+<resources>
+
+
+    <string name="app_name">ProjectApplication</string>
+    <string-array name="ser_Title">
+        <item>陸網紅高喊中國第一</item>
+        <item>b</item>
+        <item>c</item>
+        <item>d</item>
+        <item>e</item>
+
+
+
+
+    </string-array>
+    <string-array name="ser_Desc">
+        <item>生活中心／綜合報導\n
+        北京網紅「帝師」日前在台北101直播，但沒提出申請遭到服務人員制止，氣得怒罵台灣服務人員態度惡劣。事後，他在微博上仍理直氣壯為自己辯護，並高喊「在我心裡只有一個中國china no1」，事件也引發兩岸網友論戰。
+        </item>
+        <item>b</item>
+        <item>c</item>
+        <item>d</item>
+        <item>e</item>
+
+
+
+
+    </string-array>
+
+</resources>

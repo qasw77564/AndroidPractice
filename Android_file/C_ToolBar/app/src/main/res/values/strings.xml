@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">C_Toolbar</string>
+    <string name="app_xxxx">test</string>
+    <string-array name="list_tt">
+        <item>系列1</item>
+        <item>系列2</item>
+        <item>系列3</item>
+        <item>系列4</item>
+        <item>系列5</item>
+        <item>系列6</item>
+        <item>系列7</item>
+        <item>系列8</item>
+        <item>系列9</item>
+        <item>系列10</item>
+
+    </string-array>
+
+    <string-array name="list_desc">
+        <item>NO:000000000000000000000000000000000000000000000000000000000000000000001</item>
+        <item>NO:0002</item>
+        <item>NO:0003</item>
+        <item>NO:0004</item>
+        <item>NO:0005</item>
+        <item>NO:0006</item>
+        <item>NO:0007</item>
+        <item>NO:0008</item>
+        <item>NO:0009</item>
+        <item>NO:0010</item>
+
+    </string-array>
+
+</resources>

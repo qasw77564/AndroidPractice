@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.Fragment01">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="2"
+
+        >
+
+
+        <EditText
+            android:id="@+id/m_name"
+            android:hint="name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        <EditText
+            android:id="@+id/m_pass"
+            android:hint="pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <Button
+            android:layout_marginTop="150dp"
+            android:id="@+id/m_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="m_lo_btn"
+            android:text="login" />
+
+        <Button
+            android:id="@+id/m_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="m_re_btn"
+            android:text="register" />
+    </LinearLayout>
+
+
+</FrameLayout>

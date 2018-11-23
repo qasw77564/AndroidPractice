@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        id="@+id/fragment01"
+        icon="@drawable/ic_iso_black_24dp"
+        title="Fragment01"/>
+    <tab
+        id="@+id/fragment02"
+        icon="@drawable/ic_iso_black_24dp"
+        title="Fragment01"/>
+    <tab
+        id="@+id/fragment03"
+        icon="@drawable/ic_iso_black_24dp"
+        title="Fragment01"/>
+</tabs>

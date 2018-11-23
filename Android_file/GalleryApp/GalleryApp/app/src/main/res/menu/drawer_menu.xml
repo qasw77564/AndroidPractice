@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/draw_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:orderInCategory="1"
+        android:title="" />
+    <item
+        android:id="@+id/draw_share"
+        android:icon="@drawable/ic_share_black_24dp"
+        android:orderInCategory="2"
+        android:title="" />
+    <item
+        android:id="@+id/draw_instructions"
+        android:icon="@drawable/ic_message_black_24dp"
+        android:orderInCategory="3"
+        android:title="" />
+    <item
+        android:id="@+id/draw_about"
+        android:icon="@drawable/ic_apps_black_24dp"
+        android:orderInCategory="4"
+        android:title="" />
+    <item
+        android:id="@+id/draw_setting"
+        android:icon="@drawable/ic_settings_black_24dp"
+        android:orderInCategory="5"
+        android:title="" />
+</menu>

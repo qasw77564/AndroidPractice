@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+
+    <include
+        layout="@layout/title_bar"
+
+        />
+
+
+
+    <Button
+        android:id="@+id/json_btn1"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="將jason對象轉換為JAVA對象(OBJECT解析)"
+        />
+    <Button
+        android:id="@+id/json_btn2"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="將jason對象轉換為java list對象(LIST解析)"
+        />
+    <Button
+        android:id="@+id/json_btn3"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="將jason對象轉換為Java複雜解析"
+        />
+    <Button
+        android:layout_marginTop="5dp"
+        android:id="@+id/json_btn4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="將jason對象轉換為特殊解析"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="原始數據:"/>
+            <TextView
+                android:id="@+id/tv_native"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="轉換數據:"/>
+            <TextView
+                android:id="@+id/tv_try"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</LinearLayout>

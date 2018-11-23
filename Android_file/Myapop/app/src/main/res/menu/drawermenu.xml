@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/db" android:title="@string/menu_name" android:icon="@drawable/ic_person_black_24dp"/>
+    <item android:id="@+id/db1" android:title="@string/menu_images" android:icon="@drawable/ic_inger_black_24dp"/>
+    <item android:id="@+id/db2" android:title="@string/menu_message" android:icon="@drawable/ic_message_black_24dp"/>
+    <item android:id="@+id/db3" android:title="@string/menu_success" android:icon="@drawable/ic_security_black_24dp"/>
+    <item android:id="@+id/db4" android:title="@string/menu_setting" android:icon="@drawable/ic_build_black_24dp"/>
+
+</menu>

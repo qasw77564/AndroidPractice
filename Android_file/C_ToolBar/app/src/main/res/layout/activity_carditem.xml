@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context="com.wthe.c_toolbar.CardItemActivity">
+    <include layout="@layout/mytoolbar"
+        android:id="@+id/mytool"/>
+
+    <ImageView
+        android:id="@+id/imag_c"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/ic_launcher"
+        tools:layout_editor_absoluteX="192dp"
+        tools:layout_editor_absoluteY="92dp" />
+
+    <TextView
+        android:id="@+id/tv_c1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="30sp"
+       />
+    <TextView
+        android:id="@+id/tv_c2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="TextView"
+        />
+
+    <Button
+        android:id="@+id/button_c"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="下一個" />
+
+</LinearLayout>

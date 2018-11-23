@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/bt_glide_base"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="基本使用"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="36dp" />
+
+    <Button
+        android:id="@+id/bt_glide_recycle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="recycleview_image"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="116dp" />
+
+    <Button
+        android:id="@+id/bt_glide_tranformation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="圖片轉換"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="212dp" />
+</LinearLayout>

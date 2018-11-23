@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/menu01" android:title="auauau" android:icon="@drawable/ic_menu_ng_24dp"></item>
+<item android:id="@+id/menu02" android:title="mama" android:icon="@drawable/ic_menu_ng_24dp"></item>
+<item android:id="@+id/menu03" android:title="nana" android:icon="@drawable/ic_menu_ng_24dp"></item>
+
+</menu>

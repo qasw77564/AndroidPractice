@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+       <android.support.v4.view.ViewPager
+        android:id="@+id/viewpage"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"/>
+
+    <RadioGroup
+        android:id="@+id/radgroup"
+        android:weightSum="5"
+        android:background="@color/colorPrimaryDark"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rb_home"
+            android:text="主頁"
+            android:drawableTop="@drawable/rb_home_images"
+            style="@style/button_tag_style"
+            />
+        <RadioButton
+            android:id="@+id/rb_about"
+            android:text="關於"
+            android:drawableTop="@drawable/rb_home_images"
+            style="@style/button_tag_style"
+            />
+        <RadioButton
+            android:id="@+id/rb_news"
+            android:text="新聞"
+            android:drawableTop="@drawable/rb_home_images"
+            style="@style/button_tag_style"
+            />
+        <RadioButton
+            android:id="@+id/rb_us"
+            android:text="服務"
+            android:drawableTop="@drawable/rb_home_images"
+            style="@style/button_tag_style"
+            />
+        <RadioButton
+            android:id="@+id/rb_setting"
+            android:text="設定"
+            android:drawableTop="@drawable/rb_home_images"
+            style="@style/button_tag_style"
+            />
+    </RadioGroup>
+
+
+</LinearLayout>

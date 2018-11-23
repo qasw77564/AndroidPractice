@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">OnBack</string>
+    <string-array name="city">
+        <item>台北市</item>
+        <item>新北市</item>
+        <item>桃園市</item>
+        <item>新竹縣</item>
+        <item>台中市</item>
+        <item>高雄市</item>
+
+
+
+
+    </string-array>
+</resources>

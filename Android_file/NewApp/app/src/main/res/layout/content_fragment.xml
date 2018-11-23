@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <tw.com.lccnet.newapp.uiview.NoScrollViewPage
+        android:id="@+id/viewpage"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"/>
+    <RadioGroup
+        android:id="@+id/rb_group"
+        android:background="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:weightSum="5"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/rb_home"
+            android:drawableTop="@drawable/rb_home_select"
+            android:text="首頁"
+            android:textColor="@drawable/text_home_select"
+            style="@style/rb_button"
+            />
+        <RadioButton
+            android:id="@+id/rb_news"
+            style="@style/rb_button"
+            android:drawableTop="@drawable/rb_news_select"
+            android:textColor="@drawable/text_news_select"
+            android:text="新聞"
+           />
+        <RadioButton
+            android:id="@+id/rb_service"
+            style="@style/rb_button"
+            android:textColor="@drawable/text_service_select"
+            android:drawableTop="@drawable/rb_service_select"
+            android:text="服務"
+            />
+        <RadioButton
+            android:id="@+id/rb_setting"
+            style="@style/rb_button"
+            android:drawableTop="@drawable/rb_setting_select"
+            android:textColor="@drawable/text_setting_select"
+            android:text="設定"
+           />
+        <RadioButton
+            android:id="@+id/rb_about"
+            style="@style/rb_button"
+            android:drawableTop="@drawable/rb_about_select"
+            android:textColor="@drawable/text_about_select"
+            android:text="關於"
+           />
+
+
+    </RadioGroup>
+</LinearLayout>

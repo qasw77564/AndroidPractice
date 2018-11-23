@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/draw_home" android:title="" android:icon="@drawable/home_menu_24dp" android:orderInCategory="1"/>
+    <item android:id="@+id/draw_setting" android:title="" android:icon="@drawable/setting_menu_24dp" android:orderInCategory="2"/>
+    <item android:id="@+id/draw_about" android:title="" android:icon="@drawable/ic_zoom_in_black_24dp" android:orderInCategory="3"/>
+    <item android:id="@+id/draw_caption" android:title="" android:icon="@drawable/ic_star_black_24dp" android:orderInCategory="4"/>
+    <item android:id="@+id/draw_share" android:title="" android:icon="@drawable/ic_share_black_24dp" android:orderInCategory="0"/>
+
+
+</menu>

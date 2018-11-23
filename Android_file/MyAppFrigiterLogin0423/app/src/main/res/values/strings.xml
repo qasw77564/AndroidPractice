@@ -1,0 +1,16 @@
+<resources>
+
+    <string name="app_name">MyAppFrigiterLogin0423</string>
+    <string name="menu_name">首頁</string>
+    <string name="menu_login">登入</string>
+    <string name="menu_register">註冊</string>
+    <string name="menu_images">照片</string>
+    <string name="menu_message">訊息</string>
+    <string name="menu_success">安全</string>
+    <string name="menu_setting">設定</string>
+    <string name="menu_open">OPEN</string>
+    <string name="menu_close">CLOSE</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
